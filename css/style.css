@@ -1,0 +1,96 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#clock, #greeting, #todo-list li, #quote span, #weather span {
+    color : white;
+    text-shadow : 2px 2px 2px black;
+
+}
+
+#clock-box {
+    /* background-color: aqua; */
+    position :relative;
+    top : 250px;
+}
+
+#clock {
+    font-size: 120px;
+    line-height : 100%;
+    margin : 10px;
+    text-align: center;
+    
+}
+
+#login-box {
+    position : relative;
+    height : 60px;
+    top : 270px;
+    text-align: center;
+}
+
+#login-form {
+    position : relative;
+    top : 30%;
+}
+
+#greeting {
+    position : relative;
+    top : 20%;
+
+}
+
+#todo-box {
+    position: relative;
+    top : 300px;
+    text-align: center;
+}
+
+#quote {
+    position: absolute;
+    bottom : 5%;
+    text-align: center;
+}
+
+#weather {
+    position: absolute;
+    top : 5%;
+    right: 5%;
+}
+
+input::placeholder {
+    color: whitesmoke;
+}
+
+#login-form input {
+    border : none;
+    background : transparent;
+    color: white;
+    height : 30px;
+    font-size : 25px;
+    
+}
+#login-form input:first-child {
+    width: 230px;
+    border-bottom: 2px solid #CCC;
+}
+
+
+#todo-form input {
+    border : none;
+    border-bottom: 2px solid #CCC;
+    background : transparent;
+    width : 280px;
+    color: white;
+    height : 25px;
+    font-size : 20px;
+}
+
+ul {
+    list-style: none;
+}
